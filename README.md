@@ -1,6 +1,15 @@
-# 使用包安装方式安装Docker
+# Ubuntu本地安装Docker
 
-> [Install Docker Engine on Ubuntu | Docker Docs](https://docs.docker.com/engine/install/ubuntu/#install-from-a-package)
+[toc]
+
+> 官方文档：[Install Docker Engine on Ubuntu | Docker Docs](https://docs.docker.com/engine/install/ubuntu/#install-from-a-package)
+
+- [Ubuntu18.04 Docker安装包](https://github.com/gy8801/DockerPackage---1804)
+- [Ubuntu20.04 Docker安装包](https://github.com/gy8801/DockerPackage---2004)
+- [Ubuntu22.04 Docker安装包](https://github.com/gy8801/DockerPackage---2204)
+- [Ubuntu24.04 Docker安装包 ](https://github.com/gy8801/DockerPackage---2404)
+
+
 
 ## 查看Ubuntu系统版本代号
 
@@ -23,7 +32,7 @@ lsb_release -c
 
 `Codename`为版本代号，24.04此处为`noble`
 
-![img1](./assets/1.png)
+<img src="assets\1.png" alt="" />
 
 
 
@@ -82,6 +91,8 @@ sudo systemctl restart docker
 
 
 国内第三方镜像源几乎失效，可自行配置代理官方镜像地址
+
+一些解决方法：
 
 [cmliu/CF-Workers-docker.io: 这个项目是一个基于 Cloudflare Workers 的 Docker 镜像代理工具。它能够中转对 Docker 官方镜像仓库的请求，解决一些访问限制和加速访问的问题。 (github.com)](https://github.com/cmliu/CF-Workers-docker.io)
 
